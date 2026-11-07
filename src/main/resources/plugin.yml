@@ -1,0 +1,18 @@
+name: LiveSmp
+version: 1.1.0
+main: LiveSmp
+api-version: 1.21
+description: Sistem 3 nyawa SMP dengan ban 15 hari dan Revival Eye
+author: Claude
+
+commands:
+  livesmp:
+    description: Perintah admin LiveSmp
+    usage: /livesmp <check|revive|remove> <nama>
+    permission: livesmp.admin
+    permission-message: "§cKamu tidak punya izin untuk perintah ini."
+
+permissions:
+  livesmp.admin:
+    description: Akses perintah admin LiveSmp
+    default: op
