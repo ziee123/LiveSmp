@@ -1,9 +1,9 @@
 name: LiveSmp
 version: 1.1.0
-main: LiveSmp
-api-version: 1.21
+main: id.livesmp.LiveSmp
+api-version: '1.21'
 description: Sistem 3 nyawa SMP dengan ban 15 hari dan Revival Eye
-author: Claude
+author: ziee123
 
 commands:
   livesmp:
@@ -14,5 +14,6 @@ commands:
 
 permissions:
   livesmp.admin:
-    description: Akses perintah admin LiveSmp
     default: op
+  livesmp.bypass:
+    default: false
